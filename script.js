@@ -40,7 +40,7 @@ function darkness() {
         if (document.body.classList.contains('darkMode')) {
             onClick.innerText = 'Light Mode!'
         } else {
-            onClick.innerText = 'Dark Mode'
+            onClick.innerText = 'Dark Mode!'
         }
 // });
 }
