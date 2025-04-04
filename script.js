@@ -36,11 +36,11 @@ function darkness() {
     let btn = document.body;
     let onClick = document.querySelector('.toggle')
     btn.classList.toggle('darkMode')
-    onClick.addEventListener('click', function() {
+    // onClick.addEventListener('click', function() {
         if (document.body.classList.contains('darkMode')) {
             onClick.innerText = 'Light Mode!'
         } else {
             onClick.innerText = 'Dark Mode'
         }
-});
+// });
 }
